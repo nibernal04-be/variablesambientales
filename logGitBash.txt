@@ -1,0 +1,354 @@
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~
+$ ^C
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~
+$ git checkout ramaNicolle
+fatal: not a git repository (or any of the parent directories): .git
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~
+$ pwd
+/c/Users/juseb
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~
+$ cd variablesambientales
+bash: cd: variablesambientales: No such file or directory
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~
+$ cd C:\Users\juseb\OneDrive\Escritorio\variablesambientales
+bash: cd: C:UsersjusebOneDriveEscritoriovariablesambientales: No such file or directory
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~
+$ ^C
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~
+$ ^C
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~
+$ cd /c/Users/juseb
+ls
+ AppData/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+ Impresoras@
+ Links/
+'Menú Inicio'@
+'Mis documentos'@
+ NTUSER.DAT
+ NTUSER.DAT{5b3269fc-052a-11f0-a9bb-cd99740d5c6e}.TM.blf
+ NTUSER.DAT{5b3269fc-052a-11f0-a9bb-cd99740d5c6e}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{5b3269fc-052a-11f0-a9bb-cd99740d5c6e}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Plantillas@
+ Python/
+ Reciente@
+'Saved Games'/
+ Searches/
+ SendTo@
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ tracker.prefs
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~
+$ cd OneDrive
+ls
+'Almacén personal.lnk'*   Escritorio/                   'SEBASTIAN ALBA.pdf'
+'Datos adjuntos'/         Imágenes/                      Vídeos/
+ Documentos/             'Introducción a OneDrive.pdf'   desktop.ini
+ Documents/               Música/
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive
+$ cd Escritorio
+ls
+ CapCut.lnk*
+ Discord.lnk*
+ Fortnite.url
+'Proteus 8 Professional.lnk'*
+'Roblox Player.lnk'*
+'Roblox Studio.lnk'*
+'Rocket League®.url'
+'SISTEMA DE GESTION DE INVENTARIO PARA INSUMOS AGRICOLAS.pptx'
+'SƎꓭⱯSꓕIⱯN (SEBASTIAN) - Chrome.lnk'*
+'Variables Climaticas.py'
+'Wallpaper Engine.url'
+ desktop.ini
+ diagramasuml.mdj
+ diagramasuml2.mdj
+ pLdDSXev4BwxokymvKj8rbGgLsetbGcG55i4l81pfSICZ9KC8rRIkBARybFie-mZvCMszJUZaJI0rnp2nLZgRhNwzslnZWl4HBKhaX51MuPsQ9tZzR107FFrad21OMLIFk0Iw0ZbbnU2Y0BNr4cE4qsTz1D3BzTQB9SNBvBVdl6H_CDfkXmlaz4u6Sq_JMQJ-VE5Nbvae3bFRXZDgqpGvF.pdf
+'pyton multivariado'/
+ sistema_de_inventarios.zip
+'test (1).sql'
+ variablesambientales/
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio
+$ cd variablesambientales
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git status
+On branch ramaNicolle
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    VariablesClimaticas
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        NicolleBernal.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git checkout ramaNicolle
+D       VariablesClimaticas
+Already on 'ramaNicolle'
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ ls
+NicolleBernal.py
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git branch
+  main
+* ramaNicolle
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git add NicolleBernal.py
+warning: in the working copy of 'NicolleBernal.py', LF will be replaced by CRLF the next time Git touches it
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git commit -m "Agrego archivo NicolleBernal.py"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'juseb@LAPTOP-DM4CLL4T.(none)')
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git config --global user.name "Nicolle Bernal"
+git config --global user.email "nibernal04@gmail.com"
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git commit -m "Agrego archivo NicolleBernal.py"
+[ramaNicolle 17c0ba8] Agrego archivo NicolleBernal.py
+ 1 file changed, 10 insertions(+)
+ create mode 100644 NicolleBernal.py
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git push origin ramaNicolle
+info: please complete authentication in your browser...
+To https://github.com/nibernal04-be/variablesambientales.git
+ ! [rejected]        ramaNicolle -> ramaNicolle (fetch first)
+error: failed to push some refs to 'https://github.com/nibernal04-be/variablesambientales.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git push origin ramaNicolle
+To https://github.com/nibernal04-be/variablesambientales.git
+ ! [rejected]        ramaNicolle -> ramaNicolle (fetch first)
+error: failed to push some refs to 'https://github.com/nibernal04-be/variablesambientales.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git push origin ramaNicolle
+To https://github.com/nibernal04-be/variablesambientales.git
+ ! [rejected]        ramaNicolle -> ramaNicolle (fetch first)
+error: failed to push some refs to 'https://github.com/nibernal04-be/variablesambientales.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git pull origin ramaNicolle --rebase
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git status
+On branch ramaNicolle
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    VariablesClimaticas
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git add .
+git commit -m "Guardo cambios antes de sincronizar"
+[ramaNicolle ca43280] Guardo cambios antes de sincronizar
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 VariablesClimaticas
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ ^[[200~git pull origin ramaNicolle --rebase
+bash: $'\E[200~git': command not found
+git push origin ramaNicollegit push origin ramaNicolle
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git push origin ramaNicolle
+To https://github.com/nibernal04-be/variablesambientales.git
+ ! [rejected]        ramaNicolle -> ramaNicolle (fetch first)
+error: failed to push some refs to 'https://github.com/nibernal04-be/variablesambientales.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git add .
+git commit -m "Agrego archivo NicolleBernal.py"
+git pull origin ramaNicolle --rebase
+git push origin ramaNicolle
+On branch ramaNicolle
+nothing to commit, working tree clean
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1.16 KiB | 59.00 KiB/s, done.
+From https://github.com/nibernal04-be/variablesambientales
+ * branch            ramaNicolle -> FETCH_HEAD
+ * [new branch]      ramaNicolle -> origin/ramaNicolle
+Successfully rebased and updated refs/heads/ramaNicolle.
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 995 bytes | 497.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/nibernal04-be/variablesambientales.git
+   fcf3f8a..4e39bcf  ramaNicolle -> ramaNicolle
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ ls
+NicolleBernal.py  README.md  VariablesAmbientales/
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ ls VariablesAmbientales
+'Cobertura Vegetal'  'Variables Climaticas'
+'Residuos Solidos'   'Variables de Agua'
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git add VariablesAmbientales/
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git commit -m "Implementación de módulo VariablesAmbientales" \
+-m "Se agrega la carpeta VariablesAmbientales que contiene scripts en Python para el análisis de diferentes variables ambientales." \
+-m "Archivos incluidos:" \
+-m "- Cobertura Vegetal: análisis de cobertura y vegetación" \
+-m "- Residuos Sólidos: gestión y cálculo de residuos" \
+-m "- Variables Climáticas: procesamiento de datos climáticos" \
+-m "- Variables de Agua: análisis de variables hídricas" \
+-m "Este módulo permite calcular promedios y analizar datos ambientales de forma estructurada."
+[ramaNicolle e85484d] Implementación de módulo VariablesAmbientales
+ 4 files changed, 12 insertions(+)
+ create mode 100644 VariablesAmbientales/Cobertura Vegetal
+ create mode 100644 VariablesAmbientales/Residuos Solidos
+ create mode 100644 VariablesAmbientales/Variables Climaticas
+ create mode 100644 VariablesAmbientales/Variables de Agua
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git pull origin ramaNicolle --rebase
+git push origin ramaNicolle
+From https://github.com/nibernal04-be/variablesambientales
+ * branch            ramaNicolle -> FETCH_HEAD
+Current branch ramaNicolle is up to date.
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 960 bytes | 320.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/nibernal04-be/variablesambientales.git
+   4e39bcf..e85484d  ramaNicolle -> ramaNicolle
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ ^C
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ ls
+Evidencias/  NicolleBernal.py  README.md  VariablesAmbientales/
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ ls Evidencias
+'Captura de pantalla 2026-05-01 110643.png'
+'Captura de pantalla 2026-05-01 110653.png'
+'Captura de pantalla 2026-05-01 111041.png'
+'Captura de pantalla 2026-05-01 113055.png'
+'Captura de pantalla 2026-05-01 113522.png'
+'Captura de pantalla 2026-05-01 115610.png'
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git add Evidencias/
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git commit -m "Se agregan evidencias del desarrollo del proyecto" \
+-m "Se incluye la carpeta Evidencias con capturas de pantalla que documentan el proceso de desarrollo y ejecución del proyecto." \
+-m "Las evidencias muestran:" \
+-m "- Conexión al repositorio" \
+-m "- Creación y uso de ramas" \
+-m "- Commits realizados" \
+-m "- Creación de Pull Request" \
+-m "Estas evidencias respaldan el flujo de trabajo implementado en Git."
+[ramaNicolle cb37633] Se agregan evidencias del desarrollo del proyecto
+ 6 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Evidencias/Captura de pantalla 2026-05-01 110643.png
+ create mode 100644 Evidencias/Captura de pantalla 2026-05-01 110653.png
+ create mode 100644 Evidencias/Captura de pantalla 2026-05-01 111041.png
+ create mode 100644 Evidencias/Captura de pantalla 2026-05-01 113055.png
+ create mode 100644 Evidencias/Captura de pantalla 2026-05-01 113522.png
+ create mode 100644 Evidencias/Captura de pantalla 2026-05-01 115610.png
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git pull origin ramaNicolle --rebase
+git push origin ramaNicolle
+From https://github.com/nibernal04-be/variablesambientales
+ * branch            ramaNicolle -> FETCH_HEAD
+Current branch ramaNicolle is up to date.
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 263.00 KiB | 11.43 MiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/nibernal04-be/variablesambientales.git
+   e85484d..cb37633  ramaNicolle -> ramaNicolle
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$ git status
+On branch ramaNicolle
+nothing to commit, working tree clean
+
+juseb@LAPTOP-DM4CLL4T MINGW64 ~/OneDrive/Escritorio/variablesambientales (ramaNicolle)
+$
