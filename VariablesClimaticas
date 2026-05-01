@@ -1,12 +1,1 @@
-# Programa para calcular el promedio de 3 variables climáticas
 
-# Entrada de datos
-temperatura = float(input("Ingrese la temperatura (°C): "))
-humedad = float(input("Ingrese la humedad (%): "))
-velocidad_viento = float(input("Ingrese la velocidad del viento (km/h): "))
-
-# Cálculo del promedio
-promedio = (temperatura + humedad + velocidad_viento) / 3
-
-# Salida
-print("El promedio de las variables climáticas es:", promedio)
